@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Coebot.tv 2.0!!!</title>
+    <style type="text/css">
+        @keyframes mySpinnyAnimation {
+            0%   {transform: rotateZ(0deg); left:100px; top:0px;}
+            25%  {transform: rotateZ(90deg); left:0px; top:100px;}
+            50%  {transform: rotateZ(180deg); left:100px; top:200px;}
+            75%  {transform: rotateZ(270deg); left:200px; top:100px;}
+            100% {transform: rotateZ(360deg); left:0px; top:0px;}
+        }
+        
+        .my-cool-image {
+            position: absolute;
+            animation-name: mySpinnyAnimation;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+<body>
+<marquee><h1>Welcome to Coebot.tv 2.0!!!</h1></marquee>
+<img class="my-cool-image" src="http://i.imgur.com/nIcABRn.jpg">
+</body>
+</html>
